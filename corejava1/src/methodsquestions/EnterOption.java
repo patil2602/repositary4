@@ -22,11 +22,14 @@ public class EnterOption {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num1,num2,result,num;
-		int digit;
+		int digit = 0;
+		
 		Scanner options= new Scanner(System.in);
 		System.out.println("welcome");
 		
-		for(digit=1;digit<=5;digit++) {
+		//for(digit=1;digit<=5;digit++)
+		while(digit!=4)
+		{
 			System.out.println("Enter options \n 1)add \n 2)subtract \n 3)multiply \n 4)quit");
 			digit=options.nextInt();
 			
